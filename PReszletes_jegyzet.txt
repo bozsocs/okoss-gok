@@ -1,0 +1,84 @@
+JEGYZET – Ágazati Vizsga – P1: Alap Python függvények
+
+Alapműveletek:
+- Összeadás, kivonás, maradék képzés, abszolút érték számítása.
+- Saját függvények írása +, -, % műveletekkel.
+- Feltételes elágazásokkal (if-else) kell kiválasztani a kisebb vagy nagyobb számot.
+
+Oszthatóság, párosság:
+- A szám osztható-e adott számmal? Ez % operátorral vizsgálható.
+- Ha szam % 3 == 0, akkor osztható hárommal.
+- Hasonlóan működik a 2, 4, 7, stb. esetén is.
+- Páros szám: osztható kettővel, azaz szam % 2 == 0.
+
+Geometria:
+- Kocka térfogata: oldal³
+- Téglatest térfogata: a * b * c
+- Négyzet kerülete: 4 * oldal
+- Négyzet területe: oldal²
+- Négyzet átlója: √2 * oldal
+- Téglalap átlója: √(a² + b²)
+- Kör területe: π * r²
+- Kör kerülete: 2 * π * r
+- Derékszögű háromszög átfogója: √(a² + b²)
+- Derékszögű háromszög területe: a * b / 2
+
+JEGYZET – Ágazati Vizsga – P2: Lista, karakter, szöveg műveletek
+
+Lista műveletek:
+- Listák bejárása for ciklussal.
+- Lista elemeinek összeadása: változóban gyűjtöd, majd visszaadod.
+- Átlag számítás: összeg / darabszám (len vagy saját számláló).
+- Legkisebb/legnagyobb elem keresése: saját változóval hasonlítod végig.
+- Elemszám: megszámolod, hogy egy adott feltétel (pl. negatív, páros) hányszor teljesül.
+- Kiválogatás: új listába gyűjtöd azokat, amik megfelelnek a feltételnek.
+- Keresés: for ciklusban ellenőrzöd, benne van-e az adott elem a listában.
+- Első előfordulás: index-szel követed, mikor találod meg először.
+
+String műveletek:
+- Karakterek elérése indexeléssel (s[0], s[-1])
+- Keresés stringben: végignézed karakterenként.
+- Betűk számlálása, tartalmaz-e adott karaktert vagy szót (pl. "lorem")
+
+Figyelj:
+- Üres lista vagy string esetén mindig térj vissza 0 vagy None értékkel.
+- Ne használj beépített függvényeket (sum, max, min) ahol tilos!
+
+JEGYZET – Ágazati Vizsga – P3: Fájlkezelés, OOP, haladóbb feladatok
+
+Fájlműveletek (számokkal):
+- Fájl megnyitása olvasásra: open(fname, "r")
+- Soronként olvasás: for sor in file:
+- Strip + int konverzió: int(sor.strip())
+- Számolás (összeg, darab, átlag): cikluson belül gyűjtés, majd számítás.
+- Keresések: hasonló, mint listánál (csak előbb olvasd be!)
+
+Fájlműveletek (szöveggel):
+- Teljes fájl tartalom beolvasása: tartalom = f.read()
+- Szó/kulcsszó számlálás: .count("kulcsszo")
+- Karakterek száma: len(tartalom)
+- Sorok száma: len(f.readlines())
+- Leggyakoribb elem: collections.Counter használata
+
+OOP – Objektumorientált programozás:
+- Osztályok létrehozása: class Nev:
+- Konstruktor: __init__(self, ...) – itt kapja meg az értékeket.
+- Metódusok: olyan függvények, amelyek az adott objektumhoz tartoznak.
+- Például:
+  - Kocka: terfogat(), felszin()
+  - Négyzet: kerulet(), terulet()
+  - Téglalap: kerulet(), terulet()
+
+Tipp:
+- A fájlműveletek végén mindig zárd be a fájlt f.close()-al vagy használj with open(...) as f: szerkezetet!
+
+További tanulási források (W3Schools):
+- Python Functions: https://www.w3schools.com/python/python_functions.asp
+- Python Operators: https://www.w3schools.com/python/python_operators.asp
+- Python Conditions: https://www.w3schools.com/python/python_conditions.asp
+- Python Lists: https://www.w3schools.com/python/python_lists.asp
+- Python Loops: https://www.w3schools.com/python/python_for_loops.asp
+- Python Math Module: https://www.w3schools.com/python/module_math.asp
+- Python Classes/Objects: https://www.w3schools.com/python/python_classes.asp
+- Python String Methods: https://www.w3schools.com/python/python_ref_string.asp
+- Python File Handling: https://www.w3schools.com/python/python_file_handling.asp
