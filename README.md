@@ -1,1 +1,0 @@
-# okoss-gok
