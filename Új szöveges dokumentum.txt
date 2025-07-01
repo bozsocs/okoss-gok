@@ -1,0 +1,59 @@
+maradék
+1. ha (b == 0):
+2. visszatérés None
+3. vagy (else)
+4. visszatérés a % b
+
+
+számok fájlba írása for ciklussal:
+1. megnyitjuk a fálj írásra
+2. for ciklus range-el
+3. f.write(str(i) + "\n")
+4. fájl bezárása
+
+
+kiarakter számitás fájlból:
+1. megnyitjuk a fálj "r"
+2. a fájl tartalmának beolvasása konsolba
+(változó = f.read())
+3. bezárás
+5. return tartalom[-1]
+
+
+számok összege a fjlban:
+1. megnyitjuk a fálj "r"
+2. változó
+3. ciklus
+4. vátozok összeadása v = v + int(i)
+5. bezárás
+6. visszatérés
+
+számok számolása a fjlban:
+1. megnyitjuk a fálj "r"
+2. változó
+3. ciklus
+4. vátozok összeadása v = v + 1
+5. bezárás
+6. visszatérésó
+
+
+szöveg átlag
+1. megnyitjuk a fálj "r"
+2. változó1 -> f.readlines()
+3. változó2 = 0
+4. ciklus -> változó1
+5. változó2 = változó2 + int(i)
+6. avg = változó2 / len(tartalom)
+7. return avg	
+
+
+szövegfáljban karakterek számának összeadása:
+1. megnyitjuk a fálj "r"
+2. változo1 = 0
+3. ciklus:
+	#kicsi = sor.lower()
+	változo2 = i.count("r") megszámol
+	változo3 = változo2  + változo2 
+4. bezárás
+5. visszatérésó
+
