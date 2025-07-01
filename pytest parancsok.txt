@@ -1,0 +1,10 @@
+        pip install pytest, vagy
+        python -m pip install pytest, vagy
+        python3 -m pip install pytest
+
+#### A pytest futtatása:
+        pytest, 
+	vagy
+        python -m pytest
+        , vagy
+        python3 -m pytest
