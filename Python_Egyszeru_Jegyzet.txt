@@ -1,0 +1,87 @@
+
+JEGYZET – Ágazati Vizsga – P1: Alap Python függvények
+
+Alapműveletek:
+- `osszead(a, b)` – összeadás
+- `kulonbseg(a, b)` – kivonás
+- `maradek(a, b)` – maradék
+- `abszolut(a)` – abszolút érték
+- `kisebb(a, b)` – kisebb szám
+- `nagyobb(a, b)` – nagyobb szám
+
+Oszthatóság:
+- `harommal_oszthato(a)` – 3-mal osztható?
+- `kettovel_oszthato(a)` – 2-vel osztható?
+- `hettel_oszthato(a)` – 7-tel osztható?
+- `paros(a)` – páros?
+
+Geometria:
+- `kocka_terfogat(a)`
+- `teglatest_terfogat(a,b,c)`
+- `teglalap_terulet(a,b)`
+- `teglalap_kerulet(a,b)`
+- `teglalap_atloja(a,b)`
+- `negyzet_terulet(a)`
+- `negyzet_kerulet(a)`
+- `negyzet_atloja(a)`
+- `kor_terulete(r)`
+- `kor_kerulete(r)`
+- `derekszogu_haromszog_terulet(a,b)`
+- `derekszogu_haromszog_atfogo(a,b)`
+
+P2 – Lista, karakter, szöveg műveletek
+
+Lista műveletek:
+- `osszeg(lista)`
+- `szorzat(lista)`
+- `lista_atlag(lista)`
+- `legnagyobb(lista)` / `legkisebb(lista)`
+- `pozitivok_szama(lista)` / `negativok_szama(lista)`
+- `parosok_szama(lista)` / `paratlanok_szama(lista)`
+- `pozitivok_kivalogatasa(lista)`
+- `negativok_kivalogatasa(lista)`
+- `parosok_kivalogatasa(lista)`
+- `paratlanok_kivalogatasa(lista)`
+- `benne_van_a_listaban(lista, szam)`
+- `kereses_a_listaban(lista, szam)`
+
+String műveletek:
+- `elso_karakter(string)` / `utolso_karakter(string)`
+- `benne_van_a_stringben(string, betu)`
+- `kereses_a_stringben(string, betu)`
+
+P3 – Fájlkezelés, OOP, haladó
+
+Fájlműveletek (számokkal):
+- `szamok_osszege_a_fajlban(fname)`
+- `szamok_atlaga_a_fajlban(fname)`
+- `pozitiv_szamok_szama_a_fajlban(fname)`
+- `negativ_szamok_szama_a_fajlban(fname)`
+- `paros_szamok_szama_a_fajlban(fname)`
+- `paratlan_szamok_szama_a_fajlban(fname)`
+- `legnagyobb_szam_a_fajlban(fname)`
+- `legkisebb_szam_a_fajlban(fname)`
+- `harommal_oszthato_szamok_a_fajlban(fname)`
+- `neggyel_oszthato_szamok_a_fajlban(fname)`
+- `pozitiv_a_fajlbol(fname)`
+- `negativok_a_fajlbol(fname)`
+- `parosok_a_fajlbol(fname)`
+- `paratlanok_a_fajlbol(fname)`
+
+Fájlműveletek (karakterekkel):
+- `r_betuk_szama(fname)`
+- `lorem_szavak_szama(fname)`
+- `leggyakoribb_karakter(fname)`
+- `leggyakoribb_szam_a_fajlban(fname)`
+- `elso_karakter_a_fajlban(fname)`
+- `utolso_karakter_a_fajlban(fname)`
+- `string_fajlba(string, fname)`
+- `szavak_szama(fname)`
+
+OOP:
+- `Kocka` – `terfogat()`, `felszin()`
+- `Negyzet` – `kerulet()`, `terulet()`
+- `Teglalap` – `kerulet()`, `terulet()`
+
+További tanulási források (W3Schools):
+- https://www.w3schools.com/python/
